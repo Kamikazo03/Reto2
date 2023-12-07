@@ -1810,7 +1810,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 2069313139}
           m_TargetAssemblyTypeName: GameDevTraumCursorManager, Assembly-CSharp
-          m_MethodName: OnButtonCursorEnter
+          m_MethodName: OnButtonCursorDenied
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -6123,6 +6123,8 @@ MonoBehaviour:
   normalCursorHotSpot: {x: 0, y: 0}
   cursor_OnButton: {fileID: 2800000, guid: 0050b3bcf07fda442b97a2ec7bc5dffc, type: 3}
   onButtonCursorHotSpot: {x: 0, y: 0}
+  cursor_denied: {fileID: 2800000, guid: 8f876eb6c4f8e3e45b4f127ad3c7b06a, type: 3}
+  deniedCursorHotSpot: {x: 0, y: 0}
 --- !u!4 &2069313140
 Transform:
   m_ObjectHideFlags: 0

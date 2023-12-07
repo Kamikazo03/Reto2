@@ -11,6 +11,9 @@ public class GameDevTraumCursorManager : MonoBehaviour
     public Texture2D cursor_OnButton;
     public Vector2 onButtonCursorHotSpot;
 
+    public Texture2D cursor_denied;
+    public Vector2 deniedCursorHotSpot;
+
     void Start()
     {
         Cursor.SetCursor(cursor_normal, normalCursorHotSpot, CursorMode.Auto);
@@ -27,11 +30,23 @@ public class GameDevTraumCursorManager : MonoBehaviour
         {
             Cursor.SetCursor(cursor_OnButton, onButtonCursorHotSpot, CursorMode.Auto);
         }
+
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            Cursor.SetCursor(cursor_denied, deniedCursorHotSpot, CursorMode.Auto);
+        }
+
     }
 
     public void OnButtonCursorEnter()
     {
         Cursor.SetCursor(cursor_OnButton, onButtonCursorHotSpot, CursorMode.Auto);
+
+    }
+    
+    public void OnButtonCursorDenied()
+    {
+        Cursor.SetCursor(cursor_denied, deniedCursorHotSpot, CursorMode.Auto);
 
     }
 
