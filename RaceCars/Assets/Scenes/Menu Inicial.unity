@@ -652,9 +652,10 @@ MonoBehaviour:
   m_text: 'Desarrolladores
 
 
-    Andres Mosuca
+    Kevin Medina - Nivel 1
 
-    Kevin Medina'
+    Andres Mosuca - Nivel
+    2'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 947ce4b6e7000234f9bc5d1c83ad5985, type: 2}
   m_sharedMaterial: {fileID: 8065092604741080263, guid: 947ce4b6e7000234f9bc5d1c83ad5985, type: 2}
